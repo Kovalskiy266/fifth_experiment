@@ -19,7 +19,7 @@
 body {
     overflow-x: hidden;
     h1{
-        @include title_description(36px);
+        @include section_title(36px);
     }
     h6{
         @include blue_title;
@@ -247,7 +247,7 @@ body{
     .callout_content{
         span{
             padding: 14px 0 6px 0;
-            @include title_description(36px);
+            @include section_title(36px);
             float: left;
             color: $white;
         }
@@ -513,7 +513,7 @@ body{
             }
             body {
                 h1{
-                    @include title_description(24px);
+                    @include section_title(24px);
                     margin-bottom: 20px;
                     line-height: 32px;
                 }

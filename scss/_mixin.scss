@@ -48,7 +48,7 @@
     
 }
 
-@mixin title_description($font-size: 36px) {
+@mixin section_title($font-size: 36px) {
         font-size: $font-size;
         color: $black;
         letter-spacing: 0; 
