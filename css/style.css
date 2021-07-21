@@ -10811,7 +10811,7 @@ header .navigation_container .navigation .header__nav {
 }
 header .navigation_container .navigation nav {
   display: flex;
-  margin-top: 2px;
+  margin-top: 0;
   padding: 2px 0 0;
   color: #fffefe;
   z-index: 2;
@@ -10864,6 +10864,9 @@ header .header_content {
   justify-content: space-between;
   align-items: center;
   padding-top: 76px;
+}
+header .header_content h6, header .header_content .h6 {
+  margin-bottom: 9px;
 }
 header .header_content h1, header .header_content .h1 {
   color: #ffffff;
