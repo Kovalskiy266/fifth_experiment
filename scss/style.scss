@@ -130,7 +130,7 @@ body {
 }
 
 .no-gutter > [class*='col-'] {
-    padding-right: 0px;
+    padding-right: 0;
     padding-left: 0;
     margin-left: 0;
 }
@@ -358,7 +358,7 @@ body{
             }
         }
         .align_text{
-            padding-left: 0px;
+            padding-left: 0;
         }
         }
         .ultimate_align{
@@ -418,17 +418,24 @@ body{
                             margin: 15px auto;
                             font-size: 16px;
                             font-weight: bold;
-                            width: 100%;
-                            border-bottom: 1px solid $gray;
+                            &:nth-child(even){
+                                &:hover::before{
+                                    left: 35%;
+                                }
+                                &:hover::after{
+                                    left: 35%;
+                                }
+                            }
                             &:hover::before{
                                 @include underline;
-                                display: none;
+                                left: 28%;
+                                transform: translate(-11px);
                             }
                             &:hover::after{
                                 @include underline;
-                                display: none;
+                                left: 28%;
+                                transform: translate(11px);
                             }
-                            
                         }
                     }
                 }
@@ -439,7 +446,7 @@ body{
                     position: fixed;
                     top: 0;
                     right: 0;
-                    margin: 25px 30px 0 0;
+                    margin: 35px 30px 0 0;
                 }
                 .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
                     height: 2px;
@@ -518,7 +525,7 @@ body{
     }
     header{
         .navigation{
-            padding: 0px 30px 0px;
+            padding: 0px 30px 0;
         }
         .main_container{
                     .header_content{
@@ -583,7 +590,7 @@ footer{
     padding-left: 0;
     .content-about-device{
         .device_description{
-            padding-left: 0px;
+            padding-left: 0;
         }
         .device_img{
             max-width: 510px;

@@ -11405,7 +11405,7 @@ body .line .lines {
 }
 
 .no-gutter > [class*=col-] {
-  padding-right: 0px;
+  padding-right: 0;
   padding-left: 0;
   margin-left: 0;
 }
@@ -11707,7 +11707,7 @@ body .main_container .no-gutter {
   margin: 40px auto 0;
 }
 .section-pricing .price_list_container .price_list_element .align_text {
-  padding-left: 0px;
+  padding-left: 0;
 }
 .section-pricing .price_list_container .ultimate_align span {
   margin-right: -4px;
@@ -11761,8 +11761,12 @@ body .main_container .no-gutter {
     margin: 15px auto;
     font-size: 16px;
     font-weight: bold;
-    width: 100%;
-    border-bottom: 1px solid #999999;
+  }
+  header .navigation_container .navigation .header__nav .header__menu li:nth-child(even):hover::before {
+    left: 35%;
+  }
+  header .navigation_container .navigation .header__nav .header__menu li:nth-child(even):hover::after {
+    left: 35%;
   }
   header .navigation_container .navigation .header__nav .header__menu li:hover::before {
     display: block;
@@ -11773,7 +11777,8 @@ body .main_container .no-gutter {
     position: absolute;
     text-align: center;
     left: 32%;
-    display: none;
+    left: 28%;
+    transform: translate(-11px);
   }
   header .navigation_container .navigation .header__nav .header__menu li:hover::after {
     display: block;
@@ -11784,7 +11789,8 @@ body .main_container .no-gutter {
     position: absolute;
     text-align: center;
     left: 32%;
-    display: none;
+    left: 28%;
+    transform: translate(11px);
   }
   header .navigation_container .navigation .menu-burger__header {
     height: 30px;
@@ -11793,7 +11799,7 @@ body .main_container .no-gutter {
     position: fixed;
     top: 0;
     right: 0;
-    margin: 25px 30px 0 0;
+    margin: 35px 30px 0 0;
   }
   header .navigation_container .navigation .menu-burger__header span, header .navigation_container .navigation .menu-burger__header:after, header .navigation_container .navigation .menu-burger__header:before {
     height: 2px;
@@ -11859,7 +11865,7 @@ body .main_container .no-gutter {
   }
 
   header .navigation {
-    padding: 0px 30px 0px;
+    padding: 0px 30px 0;
   }
   header .main_container .header_content {
     text-align: center;
@@ -11920,7 +11926,7 @@ body .main_container .no-gutter {
     text-align: center;
   }
   .section-about-device .content-about-device .device_description {
-    padding-left: 0px;
+    padding-left: 0;
   }
   .section-about-device .content-about-device .device_img {
     max-width: 510px;
