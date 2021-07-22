@@ -8,10 +8,7 @@
         .footer_content{
             display: flex;
             justify-content: center;
-            padding-right: 45px;
-            .align {
-                padding-left: 8px;
-            }
+            padding-right: 49px;
         }
         .copyright {
             color: $dark_gray;
@@ -32,17 +29,6 @@
             color: $blue;
         }
         opacity: 0.2;
-        &:nth-child(1){
-            margin: 1px 0 0 32px;
-        }
-        &:nth-child(3){
-            margin-left: 32px;
-        }
-        &:nth-child(4){
-            margin-left: 33px;
-        }
-        &:nth-child(5){
-            margin-left: 36px;
-        }
+        margin-left: 33px;
     }
 }

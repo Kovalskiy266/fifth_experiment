@@ -2010,10 +2010,7 @@ header .device_image {
 .footer_wrapper footer .footer_content {
   display: flex;
   justify-content: center;
-  padding-right: 45px;
-}
-.footer_wrapper footer .footer_content .align {
-  padding-left: 8px;
+  padding-right: 49px;
 }
 .footer_wrapper footer .copyright {
   color: #444348;
@@ -2030,21 +2027,10 @@ header .device_image {
   margin-left: 32px;
   color: #ffffff;
   opacity: 0.2;
+  margin-left: 33px;
 }
 .footer_wrapper .icon:hover {
   color: #008ed6;
-}
-.footer_wrapper .icon:nth-child(1) {
-  margin: 1px 0 0 32px;
-}
-.footer_wrapper .icon:nth-child(3) {
-  margin-left: 32px;
-}
-.footer_wrapper .icon:nth-child(4) {
-  margin-left: 33px;
-}
-.footer_wrapper .icon:nth-child(5) {
-  margin-left: 36px;
 }
 
 .section-contacts {
