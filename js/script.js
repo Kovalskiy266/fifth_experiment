@@ -25,7 +25,6 @@ $(document).ready(function(){
 
     jQuery(window).scroll(function() {
         var windowScrollPosTop = jQuery(window).scrollTop();
-
         if(windowScrollPosTop >= 30) {
           jQuery(".navigation_container").css({"background": "#18171D",});
         }
