@@ -2022,7 +2022,7 @@ header .device_image {
   font-weight: 400;
   line-height: 48px;
   text-align: center;
-  padding-top: 14px;
+  padding-top: 7px;
   text-transform: uppercase;
 }
 .footer_wrapper .icon {
@@ -2041,7 +2041,7 @@ header .device_image {
   margin-left: 32px;
 }
 .footer_wrapper .icon:nth-child(4) {
-  margin-left: 35px;
+  margin-left: 33px;
 }
 .footer_wrapper .icon:nth-child(5) {
   margin-left: 36px;
